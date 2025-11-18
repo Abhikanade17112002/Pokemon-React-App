@@ -12,3 +12,35 @@ html, body {
   width: 100%;
   min-height: 100%;
 }
+
+
+.search-input-border{
+  border-bottom: 3px solid rgb(110, 110, 110);
+  transition: border-color 0.3s ease; 
+  outline: none;
+}
+
+.search-input-border:hover{
+  border-bottom: 3px solid black;
+
+}
+
+.search-input-border input:hover{
+  border-bottom: 3px solid black;
+
+}
+
+.search-input-border input:hover::placeholder {
+  color: black;
+}
+.pokemon-card{
+  transition: all 0.3s ease-in-out;
+}
+.pokemon-card:hover{
+
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow: 6px 6px 20px gray;
+
+}
+
