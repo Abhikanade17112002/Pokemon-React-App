@@ -44,3 +44,12 @@ html, body {
 
 }
 
+.card-image-container{
+  overflow: hidden;
+  border-radius: 8px;
+  object-fit: center;
+}
+.card-image{
+  object-fit: cover;
+  object-position:  center;
+}

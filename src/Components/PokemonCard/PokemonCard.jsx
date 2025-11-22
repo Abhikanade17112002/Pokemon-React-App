@@ -2,6 +2,10 @@ import React from 'react'
 
 const PokemonCard = ({ pokemon}) => {
 
+
+    console.dir( pokemon );
+    
+
     
 
     return (
@@ -11,8 +15,8 @@ const PokemonCard = ({ pokemon}) => {
              <div className='py-2 px-1 my-1 mx-1 pokemon-card bg-white rounded-md'>
 
 
-                    <div className="card-image w-[85%]  mx-auto bg-gray-500 h-[35vh] ">
-                        <img src="" alt={`${pokemon?.id}`} className="" />
+                    <div className="card-image-container w-[85%]  mx-auto bg-gray-500 h-[35vh] ">
+                        <img src={pokemon.sprites.other.dream_world.front_default} alt={`${pokemon?.id}`} className="card-image" />
                     </div>
                     <div className="card-info text-center mt-2">
                         <div className="name">
