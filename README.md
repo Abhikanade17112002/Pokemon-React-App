@@ -5,14 +5,14 @@ A modern Pokemon application built with React and Vite, featuring a fast develop
 ## 📸 Screenshots
 
 ### Application Interface
-![Pokemon App Interface](path/to/screenshot1.png)
+![Pokemon App Interface](https://github.com/Abhikanade17112002/Pokemon-React-App/blob/main/src/assets/screenshots/Home_Page.png)
 *Search and browse Pokemon with detailed character cards showing stats, types, and abilities*
 
 ### Deployment
-![AWS EC2 Instance](path/to/screenshot2.png)
+![AWS EC2 Instance](https://github.com/Abhikanade17112002/Pokemon-React-App/blob/main/src/assets/screenshots/Instance_Overview.png)
 *Application deployed on AWS EC2 with proper security configurations*
 
-![Security Groups](path/to/screenshot3.png)
+![Security Groups](https://github.com/Abhikanade17112002/Pokemon-React-App/blob/main/src/assets/screenshots/Security_group_overview_exposing_Port5173.png)
 *Configured inbound rules for secure access (HTTP, HTTPS, SSH, Custom TCP)*
 
 ## ✨ Features
